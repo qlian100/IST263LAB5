@@ -1,0 +1,107 @@
+body{
+	background-color: #bbbbbb;
+}
+
+.container{
+
+	background-color: #ffffff;
+	padding:20px 20px 20px 20px;
+	margin:20px 20px 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around
+
+
+
+}
+
+
+ 
+/* flex box  = a "system" (goup of css property) that allows for non-rigid (or flexible) sizing and layout of element within a flex container. 
+
+    display: flex = turning on flex - must happen to have any type of flex layout always goes on the parent element 
+
+    flex-direction = controls the order and direction that flex items flow into ;
+
+    	defalt value: row (left to right 1 2 3 4);
+    	row-reverse: (right to left 4 3 2 1);
+    	column:(top to bottom);
+    	column-reverse (bottom to top);
+
+    justify-content - how the space remaning in the ent element is distributed (minus padding & magin)
+
+    default: flex-start (aligns to the start of the primary axis..) example: left on "row";
+             flex-end (aligns to the end of the primary acis...)    example: right on "row";
+             center (align the elements with equal space to the right and left)
+             space-between (evenly distributes the elements, but aligns the first element to the left and last element to the right)
+			 space-around (equal space on all sides of all element)
+
+			 Always goes on the parent element
+
+
+
+			 flex- grow
+			 default value is 0 determines the factor at which the elements changes size to accomodete for the space that is avaible
+			 always goes on the child element.
+*/
+
+
+
+
+.item1{
+
+	background-color: #000066;
+	color:#ffffff ;
+	padding:15px;
+	margin:5px;
+	min-width: 100px;
+	text-align: center;
+
+
+
+
+}
+
+.item2{
+
+	background-color: #000066;
+	color:#ffffff ;
+	padding:15px;
+	margin:5px;
+	min-width: 100px;
+	text-align: center;
+
+
+
+}
+
+.item3{
+
+	background-color: #000066;
+	color:#ffffff ;
+	padding:15px;
+	margin:5px;
+	min-width: 100px;
+	text-align: center;
+
+
+
+}
+
+.item4{
+
+	background-color: #000066;
+	color:#ffffff ;
+	padding:15px;
+	margin:5px;
+	min-width: 100px;
+	text-align: center;
+
+
+
+}
+
+
+			 flex- grow
+			 default value is 0 determines the factor at which the elements changes size to accomodete for the space that is avaible
+			 always goes on the child elemtn
